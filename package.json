@@ -1,22 +1,10 @@
 {
-  "name": "@pagopa/io-react-native-jwt",
-  "version": "1.4.0",
+  "name": "@gburnett/io-react-native-jwt",
+  "version": "1.4.1-project-files.4",
   "description": "Native support for JWT",
   "source": "src/index",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
-  "exports": {
-    ".": {
-      "import": {
-        "types": "./lib/typescript/module/src/index.d.ts",
-        "default": "./lib/module/index.js"
-      },
-      "require": {
-        "types": "./lib/typescript/commonjs/src/index.d.ts",
-        "default": "./lib/commonjs/index.js"
-      }
-    }
-  },
   "files": [
     "src",
     "lib",
@@ -55,13 +43,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/pagopa/io-react-native-jwt",
-  "author": "PagoPa (https://github.com/pagopa)",
+  "repository": "https://github.com/gburnett/io-react-native-jwt",
+  "author": "Gburnett (https://github.com/gburnett)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pagopa/io-react-native-jwt/issues"
+    "url": "https://github.com/gburnett/io-react-native-jwt/issues"
   },
-  "homepage": "https://github.com/pagopa/io-react-native-jwt#readme",
+  "homepage": "https://github.com/gburnett/io-react-native-jwt#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
